@@ -1,4 +1,8 @@
 #Instructions and Hints for the Vowel Counter Program
+# Program Purpose:
+# This program asks the user to enter a word or sentence and then counts how many vowels
+# appear in the text. It uses a user-defined function, a vowel list, a loop, and an if-statement
+# to check each character and return the total number of vowels found.
 
 #1. Create a function that will count vowels in a piece of text
 #Hint: Use def to define your function and give it a name, like count_vowels.
