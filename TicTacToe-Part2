@@ -1,0 +1,16 @@
+Create 9 board spaces (b1 to b9)
+Set each space to empty
+
+When displaying the board:
+    If a space is empty
+        Show its number (1–9)
+    Else
+        Show X or O
+
+Display board like this:
+
+ 1 | 2 | 3
+-----------
+ 4 | 5 | 6
+-----------
+ 7 | 8 | 9
