@@ -1,0 +1,18 @@
+Goal: Let the player safely choose a square.
+
+LOOP until a valid move is entered
+    Ask player for a number from 1 to 9
+
+    IF input is not a number
+        Print error
+
+    IF number is not between 1 and 9
+        Print error
+
+    IF that board position is already used
+        Print error
+
+    Place X in that position
+    Mark that position as used
+    Exit loop
+END LOOP
