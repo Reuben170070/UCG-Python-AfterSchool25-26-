@@ -1,0 +1,32 @@
+Goal: Make the computer play smart.
+
+The computer chooses a move using this priority:
+
+1. If I can win, do it
+2. If the player can win next, block them
+3. Take the center if it is free
+4. Take a corner if one is free
+5. Take a side if one is free
+
+
+FOR each square
+    Pretend O moves there
+    IF that makes O win
+        Place O there
+        Stop
+
+IF no winning move
+    FOR each square
+        Pretend X moves there
+        IF that lets X win
+            Place O there
+            Stop
+
+IF center is empty
+    Place O there
+
+ELSE IF any corner is empty
+    Place O in a corner
+
+ELSE
+    Place O on any side
